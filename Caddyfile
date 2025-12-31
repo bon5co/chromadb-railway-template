@@ -7,7 +7,7 @@
         path /*
     }
     route @auth {
-        reverse_proxy {$CHROMA_PRIVATE_URL}:8000
+        reverse_proxy {$CHROMA_RAILWAY_PRIVATE_DOMAIN}:8000
     }
     route @unauth {
         respond "Unauthorized" 401
