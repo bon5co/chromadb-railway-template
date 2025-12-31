@@ -1,0 +1,15 @@
+:8080 {
+    @unauth {
+        path /*
+    }
+    @auth {
+        header Authorization "Bearer {$CADDY_AUTHORIZATION}"
+        path /*
+    }
+    route @auth {
+        reverse_proxy chromadb:8000
+    }
+    route @unauth {
+        respond "Unauthorized" 401
+    }
+}
