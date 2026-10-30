@@ -2,6 +2,11 @@
 
 
 # Deploy and Host ChromaDB on Railway
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/chromadb-latest?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [ChromaDB template](https://railway.com/deploy/chromadb-latest?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Chroma is the AI-native open-source vector database. It is designed to be the memory layer for AI applications, making knowledge, facts, and skills pluggable for LLMs. This deployment provides a high-performance, standalone instance of ChromaDB accessible via REST API.
 
 
